@@ -712,7 +712,7 @@ encodeURIComponent()和decodeURIComponent()对任何非法字符编码
 eval()方法，相当于一个解析器，
 
 ```javascript
-var msg = “hello world"；
+var msg = "hello world";
 eval("alert(msg)");//hello world
 //eval()中的函数和定义的变量在外部也能用（严格模式除外）
 
